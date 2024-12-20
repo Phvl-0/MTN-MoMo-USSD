@@ -1,0 +1,23 @@
+{
+    "name": "My Project",
+    "image": "mcr.microsoft.com/vscode/devcontainers/python:3.9",  // Base image for Python projects
+    "features": {
+        "ghcr.io/devcontainers/features/python:1": {
+            "version": "3.9"  // Specify the Python version
+        },
+        "ghcr.io/devcontainers/features/git:1": {}  // Include Git feature
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "python.pythonPath": "/usr/local/bin/python",  // Set Python path
+                "editor.formatOnSave": true  // Enable format on save
+            },
+            "extensions": [
+                "ms-python.python",  // Python extension
+                "ms-toolsai.jupyter"  // Jupyter extension for notebooks
+            ]
+        }
+    },
+    "postCreateCommand": "pip install -r requirements.txt"  // Install dependencies after container creation
+}

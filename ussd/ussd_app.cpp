@@ -391,7 +391,7 @@ void MoMoPayPayBill()  {
                        }
 
 
- InternetBundles(){
+void InternetBundles(){
     int Bundle;
     cout << " Welcome to the Bundle Portal. Please select an option "<< endl;
     cout << "  1) Proceed to buy (No 4G bonus) "<< endl;
