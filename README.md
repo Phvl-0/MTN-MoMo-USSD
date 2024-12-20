@@ -1,23 +1,21 @@
-## USSD Project
+# USSD Project for MTN Mobile Money
+*Overview*
+This project implements a USSD (Unstructured Supplementary Service Data) application using C++. The application provides a simple menu-driven interface for users to interact with MTN Mobile Money services.
 
-# Overview
-This project implements a USSD (Unstructured Supplementary Service Data) application using C++. The application provides a simple menu-driven interface for users to interact with.
-
-# Features
+**Features**
 - USSD menu system
 - User input handling
 - Error handling and validation
 
-# Requirements
+**Requirements**
 - C++ compiler (e.g., GCC)
 - USSD simulator or gateway (for testing)
 
-# Installation
-1. Clone the repository: `git clone (link unavailable)
+**Installation**
+1. Clone the repository: `git clone (link unavailable)`
 2. Navigate to the project directory: `cd ussd-project`
 3. Compile the code: `g++ -o ussd ussd.cpp`
 
-# Usage
+**Usage**
 1. Run the application: `./ussd`
 2. Follow the on-screen instructions to navigate the USSD menu
-
